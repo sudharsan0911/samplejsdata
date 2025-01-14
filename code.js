@@ -1,4 +1,4 @@
-{
+const yamlContent = {
   users: {
     _id: { type: "ObjectId" },
     name: { type: "String" },
@@ -11,4 +11,4 @@
     userId: { type: "ObjectId", ref: "users" },
     quantity: { type: "Number" }
   }
-}
+};
